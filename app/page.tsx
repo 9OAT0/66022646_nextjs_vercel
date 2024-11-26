@@ -13,16 +13,34 @@ export default function HomePage() {
                 </div>
             </div>
 
-            <div className="text-2xl font-medium text-center mt-10">
-                This my resume
+            <div className="text-2xl font-medium text-center mt-10 font-mono">
+                This my resume.
             </div>
         </div>
         <div className="flex justify-center items-center">
             <div className="text-6xl font-mono">
                 About me. <br />
-                <p className="text-xs">
+                <p className="text-base">
                     I'm a software developer i predict my backend-dev experience
                 </p>
+                <br />
+                Experience <br />
+                <p className="text-base">
+                    Javascript <br />
+                    Python <br />
+                    Java <br />
+                    HTML CSS <br />
+                    NuxtJS <br />
+                    NextJS 
+                </p>
+                <br />
+                Contact <br />
+                <p className="text-base">
+                    <a href="https://www.facebook.com/ThanachartwantTokickUAss/" target="_blank" className="hover:border-white hover:border-b-2">facebook</a> <br />
+                    <a href="https://www.instagram.com/oreoatt/?hl=th" target="_blank" className="hover:border-white hover:border-b-2">Instagram</a> <br />
+                    tel : 0943691074
+                </p>
+
             </div>
         </div>
     </div>
