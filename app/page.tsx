@@ -21,8 +21,8 @@ export default function HomePage() {
             <div className="text-6xl font-mono">
                 About me. <br />
                 <p className="text-base">
-                    I'm a software developer i predict my backend-dev experience <br />
-                    my hobby is <a href="HobbyPage" className="hover:border-white hover:border-b-2">' street photography '</a> 
+                    I am a software developer i predict my backend-dev experience <br />
+                    my hobby is <a href="HobbyPage" className="hover:border-white hover:border-b-2"> street photography </a> 
                 </p>
                 <br />
                 Experience <br />
