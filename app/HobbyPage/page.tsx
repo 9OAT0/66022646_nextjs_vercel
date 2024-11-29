@@ -1,9 +1,9 @@
 export default function hobbyPage() {
     return (
         <>
-        <div>
-            hello 
-        </div>
+        <h1>
+            hello it just hobby page
+        </h1>
         </>
     )
 }
