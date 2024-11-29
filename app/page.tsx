@@ -1,6 +1,6 @@
 export default function HomePage() {
     return (
-    <div className="bg-black text-white pb-10">
+    <div className="bg-black text-white">
         <div className="flex flex-col items-center justify-center min-h-screen">
             <div className="relative flex justify-center items-center">
                 <img
@@ -14,14 +14,15 @@ export default function HomePage() {
             </div>
 
             <div className="text-2xl font-medium text-center mt-10 font-mono">
-                This my resume.
+                This my Portfolio.
             </div>
         </div>
-        <div className="flex justify-center items-center">
+        <div className="flex flex-col items-center min-h-screen">
             <div className="text-6xl font-mono">
                 About me. <br />
                 <p className="text-base">
-                    I'm a software developer i predict my backend-dev experience
+                    I'm a software developer i predict my backend-dev experience <br />
+                    my hobby is <a href="HobbyPage" className="hover:border-white hover:border-b-2">' street photography '</a> 
                 </p>
                 <br />
                 Experience <br />
